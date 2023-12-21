@@ -1,6 +1,6 @@
 package com.workshop.workshopmongo.config;
 
-import com.workshop.workshopmongo.doman.User;
+import com.workshop.workshopmongo.domans.User;
 import com.workshop.workshopmongo.repositorys.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

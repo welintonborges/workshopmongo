@@ -1,6 +1,6 @@
 package com.workshop.workshopmongo.repositorys;
 
-import com.workshop.workshopmongo.doman.User;
+import com.workshop.workshopmongo.domans.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
