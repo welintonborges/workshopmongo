@@ -40,4 +40,10 @@ public class UserResource {
         return ResponseEntity.created(uri).build();
     }
 
+    @DeleteMapping(value = "/{id}")
+    public ResponseEntity<UserDTO> delete(@PathVariable String id){
+         userService.delite(id);
+        return ResponseEntity.noContent().build();
+    }
+
 }
